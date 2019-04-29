@@ -1,0 +1,46 @@
+/rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/bindings/1.2.1/node_modules/bindings/bindings.js:91
+
+  throw err
+
+  ^
+
+
+Error: Could not locate the bindings file. Tried:
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/build/leveldown.node
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/build/Debug/leveldown.node
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/build/Release/leveldown.node
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/out/Debug/leveldown.node
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/Debug/leveldown.node
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/out/Release/leveldown.node
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/Release/leveldown.node
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/build/default/leveldown.node
+
+ → /rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/compiled/10.15.0/linux/x64/leveldown.node
+
+    at bindings (/rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/bindings/1.2.1/node_modules/bindings/bindings.js:88:9)
+
+    at Object.<anonymous> (/rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/leveldown/1.7.2/node_modules/leveldown/leveldown.js:4:46)
+
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+    at Object.<anonymous> (/rbd/pnpm-volume/0f32f265-4e93-4ae9-88be-1d3b94524a0a/node_modules/.registry.npmjs.org/level/1.7.0/node_modules/level/level.js:1:106)

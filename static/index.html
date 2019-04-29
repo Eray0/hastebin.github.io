@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Plus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="application.min.css"/>
+    <link rel="stylesheet" type="text/css" href="highlight.min.css"/>
+    <link rel="shortcut icon" href="https://img12.androidappsapk.co/300/e/8/7/com.notdefteri.notdefteri.png">
+    <script src="jquery.min.js"></script>
+	<script src="highlight.min.js"></script>
+    <script src="application.min.js"></script>
+</head>
+<body>
+<div id="content">
+    <pre id="code" style="display:none;" tabindex="0"><code></code></pre>
+    <textarea spellcheck="false" style="display:none;"></textarea>
+</div>
+<div id="tools">
+    <div class="save function" title="Kaydet [Ctrl + S]"></div>
+    <div class="new function" title="Yeni Oluştur [Ctrl + Space]"></div>
+    <div class="duplicate function" title="Çogalt [Ctrl + D]"></div>
+    <div class="raw function" title="Ayrı Göster [Ctrl + Shift + R]"></div>
+<SCRIPT LANGUAGE="Javascript"><!--
+// ***********************************************
+// Bu kodu www.TeknoEsinti.com adresinden aldınız..
+// ***********************************************
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+var EnableRightClick = 0;
+if(isNS)
+document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+if(EnableRightClick==1){ return true; }
+else {return false; }
+}
+function mousehandler(e){
+if(EnableRightClick==1){ return true; }
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+function keyhandler(e) {
+var myevent = (isNS) ? e : window.event;
+if (myevent.keyCode==96)
+EnableRightClick = 1;
+return;
+}
+document.oncontextmenu = mischandler;
+document.onkeypress = keyhandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+//-->
+</script>
+  </div>
+</body>
+</html>
